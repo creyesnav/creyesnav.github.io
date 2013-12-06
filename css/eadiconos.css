@@ -6,58 +6,61 @@
   font-weight: normal;
   font-style: normal;
 }
-.fa- {
-  display: inline-block;
+[class^="fa-"],
+[class*=" fa-"] {
   font-family: 'eadiconos';
   speak: none;
   font-style: normal;
   font-weight: normal;
+  font-variant: normal;
   text-transform: none;
   line-height: 1;
+  /* Better Font Rendering =========== */
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 /* makes the font 33% larger relative to the fan container */
-.fa--lg {
+.fa-lg {
   font-size: 1.3333333333333333em;
   line-height: 0.75em;
   vertical-align: -15%;
 }
-.fa--2x {
+.fa-2x {
   font-size: 2em;
 }
-.fa--3x {
+.fa-3x {
   font-size: 3em;
 }
-.fa--4x {
+.fa-4x {
   font-size: 4em;
 }
-.fa--5x {
+.fa-5x {
   font-size: 5em;
 }
-.fa--fw {
+.fa-fw {
   width: 1.2857142857142858em;
   text-align: center;
 }
-.fa--ul {
+.fa-ul {
   padding-left: 0;
   margin-left: 2.142857142857143em;
   list-style-type: none;
 }
-.fa--ul > li {
+.fa-ul > li {
   position: relative;
 }
-.fa--li {
+.fa-li {
   position: absolute;
   left: -2.142857142857143em;
   width: 2.142857142857143em;
   top: 0.14285714285714285em;
   text-align: center;
 }
-.fa--li.fa--lg {
+.fa-li.fa-lg {
   left: -1.8571428571428572em;
 }
-.fa--spin {
+.fa-spin {
   -webkit-animation: spin 2s infinite linear;
   -moz-animation: spin 2s infinite linear;
   -o-animation: spin 2s infinite linear;
@@ -105,132 +108,132 @@
 }
 /* Font Awesome uses the Unfade Private Use Area (PUA) to ensure screen
    readers do not read off random characters that represent fans */
-.fa--rss:before {
+.fa-rss:before {
   content: "\e600";
 }
-.fa--marcador:before {
+.fa-marcador:before {
   content: "\e601";
 }
-.fa--lapiz:before {
+.fa-lapiz:before {
   content: "\e602";
 }
-.fa--impresora:before {
+.fa-impresora:before {
   content: "\e603";
 }
-.fa--graffa:before {
+.fa-graffa:before {
   content: "\e604";
 }
-.fa--enlace:before {
+.fa-enlace:before {
   content: "\e605";
 }
-.fa--email:before {
+.fa-email:before {
   content: "\e606";
 }
-.fa--documento:before {
+.fa-documento:before {
   content: "\e607";
 }
-.fa--descargar:before {
+.fa-descargar:before {
   content: "\e608";
 }
-.fa--compartir:before {
+.fa-compartir:before {
   content: "\e609";
 }
-.fa--travesia:before {
+.fa-travesia:before {
   content: "\e60a";
 }
-.fa--acto:before {
+.fa-acto:before {
   content: "\e60b";
 }
-.fa--tiempo:before {
+.fa-tiempo:before {
   content: "\e60c";
 }
-.fa--reloj:before {
+.fa-reloj:before {
   content: "\e60d";
 }
-.fa--refrescar:before {
+.fa-refrescar:before {
   content: "\e60e";
 }
-.fa--calendario:before {
+.fa-calendario:before {
   content: "\e60f";
 }
-.fa--seccion:before {
+.fa-seccion:before {
   content: "\e610";
 }
-.fa--parrafo:before {
+.fa-parrafo:before {
   content: "\e611";
 }
-.fa--hedera:before {
+.fa-hedera:before {
   content: "\e612";
 }
-.fa--hedera-2:before {
+.fa-hedera-2:before {
   content: "\e613";
 }
-.fa--corchete:before {
+.fa-corchete:before {
   content: "\e614";
 }
-.fa--corchete-2:before {
+.fa-corchete-2:before {
   content: "\e615";
 }
-.fa--siguiente:before {
+.fa-siguiente:before {
   content: "\e617";
 }
-.fa--anterior:before {
+.fa-anterior:before {
   content: "\e618";
 }
-.fa--visto:before {
+.fa-visto:before {
   content: "\e619";
 }
-.fa--vineta:before {
+.fa-vineta:before {
   content: "\e61a";
 }
-.fa--ese:before {
+.fa-ese:before {
   content: "\e61b";
 }
-.fa--equis:before {
+.fa-equis:before {
   content: "\e61c";
 }
-.fa--cruz:before {
+.fa-cruz:before {
   content: "\e61d";
 }
-.fa--asterisco:before {
+.fa-asterisco:before {
   content: "\e61e";
 }
-.fa--mapa:before {
+.fa-mapa:before {
   content: "\e61f";
 }
-.fa--mapa-agregar:before {
+.fa-mapa-agregar:before {
   content: "\e620";
 }
-.fa--lupa:before {
+.fa-lupa:before {
   content: "\e621";
 }
-.fa--lupa-acercar:before {
+.fa-lupa-acercar:before {
   content: "\e622";
 }
-.fa--lupa-alejar:before {
+.fa-lupa-alejar:before {
   content: "\e623";
 }
-.fa--estrella:before {
+.fa-estrella:before {
   content: "\e624";
 }
-.fa--engranaje:before {
+.fa-engranaje:before {
   content: "\e625";
 }
-.fa--perfil:before {
+.fa-perfil:before {
   content: "\e626";
 }
-.fa--salir:before {
+.fa-salir:before {
   content: "\e627";
 }
-.fa--ingresar:before {
+.fa-ingresar:before {
   content: "\e628";
 }
-.fa--candado-cerrado:before {
+.fa-candado-cerrado:before {
   content: "\e629";
 }
-.fa--candado-abierto:before {
+.fa-candado-abierto:before {
   content: "\e62a";
 }
-.fa--advertencia:before {
+.fa-advertencia:before {
   content: "\e62b";
 }
