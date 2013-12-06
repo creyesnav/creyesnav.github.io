@@ -1,6 +1,7 @@
 /* FONT PATH
  * -------------------------- */
 @font-face {
+  font-family: 'eadiconos';
   src: url('fonts/eadiconos.eot');
   src: url('fonts/eadiconos.eot?#iefix') format('embedded-opentype'), url('fonts/eadiconos.ttf') format('truetype'), url('fonts/eadiconos.woff') format('woff'), url('fonts/eadiconos.svg#eadiconos') format('svg');
   font-weight: normal;
